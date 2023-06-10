@@ -1,0 +1,10 @@
+CHANNEL_ARG channels vector of 1:16
+RESET_ARG  boolean 0 do not reset, 1 reset
+INIT_VAL_ARG     initla value vector of double
+SAMP_TIME_ARG  sampling time  seconds
+PCI_SLOT_ARG   pci slot number  integer, use -1 for autosearch 
+PCI_BUS_ARG     pci bus  integer 
+// if you know the bus and slot you can specify them, you can use 
+"getxpcpci all" in matlab command window to know the bus and slot number
+if you set the PCI_SLOT_ARG  to -1 then the code will search for the bus number so use any posttive number 
+for bus if you selected -1 for slot 

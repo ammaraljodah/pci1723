@@ -1,0 +1,64 @@
+const signalNameMap driver_test_BIOMAP[] =
+  {
+	{0,0,1},
+{-1, -1,1}
+  };
+const signalLabelMap driver_test_LBLMAP[] =
+  {
+	{0,0,1},
+{-1, -1,1}
+  };
+const signalIdMap driver_test_SIDMAP[] =
+  {
+	{0,0,1},
+{-1, -1,1}
+  };
+const SortedBlockSignals  driver_test_SBIO[] ={
+       0,
+      -1
+};
+const SortedBlockLabels  driver_test_SLBL[] ={
+       0,
+      -1
+};
+const OldSortedBlockParameters  driver_test_PTIDSMAP[] ={
+	{0,0},
+	{1,1},
+	{2,2},
+	{3,3},
+	{4,4},
+	{5,5},
+	{6,6},
+	{7,7},
+	{-1,-1},
+};
+const OldSortedBlockParameters  driver_test_PTNAMESMAP[] ={
+	{0,0},
+	{1,1},
+	{2,2},
+	{3,3},
+	{4,4},
+	{5,5},
+	{6,6},
+	{7,7},
+	{-1,-1},
+};
+const SortedBlockParameters  driver_test_SPTMAP[] ={
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+      -1
+};
+
+
+const EnumElemMapInfo driver_test_dtmap[] = 
+{
+	{
+		NULL,NULL,0
+	},
+};
